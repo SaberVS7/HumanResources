@@ -8,7 +8,7 @@
     <ProjectGuid>{36A3E364-2E2B-401C-9E79-3909DEBE07D0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>HumanResources</RootNamespace>
-    <AssemblyName>HumanResources</AssemblyName>
+    <AssemblyName>HumanResourcesEnterprise</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -275,8 +275,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-		<Publicize Include="Assembly-CSharp" />
-	</ItemGroup>
+    <Publicize Include="Assembly-CSharp" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!--Script to copy files to RimWorld's mod folder after build-->
   <PropertyGroup>
